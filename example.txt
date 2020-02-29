@@ -1,0 +1,19 @@
+int main() { 
+	// program that sums all absolute values of x numbers. Everytime a 0 is received adds 1 to number of ints to read
+	int i = 0, toRead, Total = 0, timesToRead;
+	printf("The command will now begin. Insert number of reads:\n");
+	scanf("%d", &timesToRead);
+	while(i < timesToRead) {
+		scanf("%d", &toRead);
+		if(toRead > 0) Total = Total + toRead;
+		else if( toRead < 0) Total = Total - toRead;
+		else {
+			timesToRead = timesToRead + 1;
+			printf("Total unchanged: Number of reads incremented to %d\n", timesToRead);
+		}
+		i = i + 1;
+	}
+	printf("%d",Total);
+	return Total;
+
+}	
