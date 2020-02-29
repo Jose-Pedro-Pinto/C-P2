@@ -6,4 +6,4 @@ Create a compiler more complex than for the first project, allowing more complex
 Note:<br>
 For example of a program it can compile check "example.txt".<br>
 For detailed description of functionality and implementation check "ReadMe".<br>
-ReadMe was written in portuguese.<br>
+"ReadMe" was written in portuguese.<br>
